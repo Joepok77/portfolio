@@ -54,7 +54,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "App Developer en JavaScript",
     icon: creator,
   },
 ];
