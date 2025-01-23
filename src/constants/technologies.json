@@ -1,0 +1,88 @@
+[
+    {
+      "name": "HTML",
+      "level": "Avancé",
+      "image_path": "/images/1051277.png"
+    },
+    {
+      "name": "CSS",
+      "level": "Avancé",
+      "image_path": "/images/732190.png"
+    },
+    {
+      "name": "PHP",
+      "level": "Intermédiaire",
+      "image_path": "/images/php.svg"
+    },
+    {
+      "name": "Javascript",
+      "level": "Intermédiaire",
+      "image_path": "/images/javascript_original_logo_icon_146455.png"
+    },
+    {
+      "name": "Alpine.js",
+      "level": "Intermédiaire",
+      "image_path": "/images/Alpine.js.svg"
+    },
+    {
+      "name": "Vue.js",
+      "level": "Apprentissage",
+      "image_path": "/images/Vue.js.svg"
+    },
+    {
+      "name": "Three.js",
+      "level": "Intermédiaire",
+      "image_path": "/images/Three.js.svg"
+    },
+    {
+      "name": "Symfony",
+      "level": "Intermédiaire",
+      "image_path": "/images/Symfony.svg"
+    },
+    {
+      "name": "C",
+      "level": "Intermédiaire",
+      "image_path": "/images/695px-C_Programming_Language.svg.png"
+    },
+    {
+      "name": "Java",
+      "level": "Intermédiaire",
+      "image_path": "/images/java.svg"
+    },
+    {
+      "name": "Python",
+      "level": "Intermédiaire",
+      "image_path": "/images/Python-logo-notext.svg.png"
+    },
+    {
+      "name": "NodeJS",
+      "level": "Apprentissage",
+      "image_path": "/images/free-node-js-1174925.png"
+    },
+    {
+      "name": "SQL",
+      "level": "Avancé",
+      "image_path": "/images/sql-database-generic.svg"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": "Intermédiaire",
+      "image_path": "/images/PostgresSQL.svg"
+    },
+    {
+      "name": "Kotlin",
+      "level": "Apprentissage",
+      "image_path": "/images/Kotlin.svg"
+    },
+    {
+      "name": "Angular",
+      "level": "Débutant",
+      "image_path": "/images/Angular.svg"
+    },
+    {
+      "name": "Typescript",
+      "level": "Débutant",
+      "image_path": "/images/TypeScript.svg"
+    }
+  ]
+  

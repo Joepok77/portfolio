@@ -125,6 +125,65 @@
   animation: mulShdSpin 1.1s infinite ease;
   transform: translateZ(0);
 }
+/* Styles pour les technologies */
+.tech-item {
+  position: relative;
+  overflow: hidden;
+  width: 130px; /* Augmenté légèrement pour inclure les niveaux */
+  height: 160px; /* Augmenté pour permettre l'affichage du niveau */
+  transition: box-shadow 0.5s ease, transform 0.3s ease; /* Animation fluide */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.tech-item:hover {
+  box-shadow: 0px 4px 15px rgba(255, 215, 0, 0.5); /* Lumière dorée */
+}
+
+.tech-item-content {
+  position: absolute;
+  inset: 0; /* Remplit l'espace disponible */
+  padding: 10px; /* Ajoute un peu de marge autour */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.3s ease; /* Animation fluide */
+}
+
+.tech-item:hover .tech-item-content {
+  transform: scale(1.1); /* Agrandit uniquement le contenu */
+}
+
+.tech-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(120deg, rgba(255, 223, 0, 0.4), transparent);
+  transition: left 0.5s ease;
+}
+
+.tech-item:hover::before {
+  left: 100%; /* Crée une surbrillance dorée */
+}
+
+/* Style pour le niveau */
+.tech-level {
+  margin-top: 5px;
+  font-size: 0.75rem; /* Texte légèrement plus petit */
+  color: #fde68a; /* Couleur dorée pour le niveau */
+  opacity: 1;
+  transition: opacity 0.3s ease; /* Animation de visibilité */
+}
+
+.tech-item:hover .tech-level {
+  opacity: 1; /* S'assure que le niveau reste visible au survol */
+}
 
 @keyframes mulShdSpin {
   0%,

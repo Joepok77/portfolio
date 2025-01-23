@@ -7,23 +7,46 @@ import {
   typescript,
   html,
   css,
-  reactjs,
-  redux,
-  tailwind,
+  //reactjs,
+  //redux,
+  //tailwind,
   nodejs,
+  alpinejs,
+  angular,
+  c,
+  github,
+  googleCloud,
+  intellij,
+  intellijIdea,
+  java,
+  kotlin,
+  mysql,
+  php,
+  postgresql,
+  python,
+  sql,
+  symfony,
+  vscode,
+  vuejs,
+
   mongodb,
   git,
   figma,
   docker,
-  meta,
-  starbucks,
-  tesla,
-  shopify,
+
+
+  //meta,
+  //starbucks,
+  //tesla,
+  //shopify,
+  Redland,
+
   carrent,
   jobit,
   tripguide,
   threejs,
 } from "../assets";
+
 
 export const navLinks = [
   {
@@ -42,19 +65,19 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Web Developer",
+    title: "Développeur Web",
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Développeur Frontend",
     icon: mobile,
   },
   {
-    title: "Backend Developer",
+    title: "Développeur Backend",
     icon: backend,
   },
   {
-    title: "App Developer en JavaScript",
+    title: "Développeur d'Applications en JavaScript",
     icon: creator,
   },
 ];
@@ -63,110 +86,169 @@ const technologies = [
   {
     name: "HTML 5",
     icon: html,
+    level: "Avancé",
   },
   {
     name: "CSS 3",
     icon: css,
+    level: "Avancé",
   },
   {
     name: "JavaScript",
     icon: javascript,
+    level: "Intermédiaire",
   },
   {
     name: "TypeScript",
     icon: typescript,
-  },
-  {
-    name: "React JS",
-    icon: reactjs,
-  },
-  {
-    name: "Redux Toolkit",
-    icon: redux,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
+    level: "Débutant",
   },
   {
     name: "Node JS",
     icon: nodejs,
+    level: "en Apprentissage ",
   },
   {
     name: "MongoDB",
     icon: mongodb,
+    level: "Intermédiaire",
   },
   {
     name: "Three JS",
     icon: threejs,
+    level: "Intermédiaire",
   },
   {
-    name: "git",
+    name: "Git",
     icon: git,
+    level: "Avancé",
   },
   {
-    name: "figma",
+    name: "GitHub",
+    icon: github,
+    level: "Avancé",
+  },
+  {
+    name: "Figma",
     icon: figma,
+    level: "Intermédiaire",
   },
   {
-    name: "docker",
+    name: "Docker",
     icon: docker,
+    level: "Intermédiaire",
+  },
+  {
+    name: "Alpine.js",
+    icon: alpinejs,
+    level: "Intermédiaire",
+  },
+  {
+    name: "Vue.js",
+    icon: vuejs,
+    level: "en Apprentissage",
+  },
+  {
+    name: "Angular",
+    icon: angular,
+    level: "en Apprentissage",
+  },
+  {
+    name: "PHP",
+    icon: php,
+    level: "Intermédiaire",
+  },
+  {
+    name: "MySQL",
+    icon: mysql,
+    level: "Avancé",
+  },
+  {
+    name: "PostgreSQL",
+    icon: postgresql,
+    level: "Intermédiaire",
+  },
+  {
+    name: "Python",
+    icon: python,
+    level: "Débutant",
+  },
+  {
+    name: "Symfony",
+    icon: symfony,
+    level: "Débutant",
+  },
+  {
+    name: "C",
+    icon: c,
+    level: "Intermédiaire",
+  },
+  {
+    name: "Kotlin",
+    icon: kotlin,
+    level: "en Apprentissage",
+  },
+ 
+  {
+    name: "Google Cloud",
+    icon: googleCloud,
+    level: "Débutant",
+  },
+  {
+    name: "VS Code",
+    icon: vscode,
+    level: "Avancé",
+  },
+  {
+    name: "Java",
+    icon: java,
+    level: "Intermédiaire",
+  },
+  {
+    name: "SQL",
+    icon: sql,
+    level: "Avancé",
+  },
+  {
+    name: "IntelliJ IDEA",
+    icon: intellijIdea,
+    level: "Avancé",
   },
 ];
 
+
 const experiences = [
+ 
+
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: " stage de developpeur application en Javacript",
+    company_name: "RedLand Studio",
+    icon: Redland,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "avril 2024 - juillet 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Création d'une application interactive de quiz d'anglais pour enfants à l'aide de l'outil PubCoder, permettant d'intégrer des animations et des interactions intuitives.",
+      "Développement de fonctionnalités personnalisées en JavaScript pour enrichir l'expérience utilisateur et répondre aux besoins pédagogiques.",
+      "Conception d'interfaces attractives et adaptées aux enfants, tout en assurant une navigation fluide.",
+      "Test et optimisation des performances de l'application pour garantir une utilisation sans problème sur différents appareils.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "stage en recherche...",
+    company_name: "??",
+    
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "avril 2025 - ??",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "...",
+      "...",
+      "...",
+      "...",
     ],
   },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
+
+
+  
 ];
 
 const testimonials = [

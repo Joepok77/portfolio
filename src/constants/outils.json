@@ -1,0 +1,48 @@
+[
+    {
+      "name": "Git",
+      "service": "Gestion de versions",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "Github",
+      "service": "Hébergeur",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "MySQL",
+      "service": "Base de données",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "PgAdmin",
+      "service": "Base de données",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "Docker",
+      "service": "Conteneurs logiciels",
+      "image_path": "/src/assets/tech/docker.png"
+    },
+    {
+      "name": "Figma",
+      "service": "Design UI",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "Google Cloud",
+      "service": "Services cloud",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "IntelliJ IDEA",
+      "service": "IDE",
+      "image_path": "/src/assets/tech/git.png"
+    },
+    {
+      "name": "VS Code",
+      "service": "Editeur de code",
+      "image_path": "/src/assets/tech/git.png"
+    }
+  ]
+  

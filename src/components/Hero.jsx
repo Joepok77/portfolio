@@ -26,7 +26,7 @@ const Hero = () => {
   className={`${styles.heroSubText} mt-2 text-white-100`}
   style={{ fontSize: "2rem" }} // Taille personnalisée
 >
-  je suis étudiant a l'Efrei en 2éme année  en developpement web et d'application.
+  je suis étudiant a l'Efrei en 2éme année en developpement web et d'application.
 </p>
 
         </div>
