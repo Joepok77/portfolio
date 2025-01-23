@@ -57,8 +57,8 @@ Suivez ces étapes pour configurer le projet localement sur votre machine.
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/your-username/your-repo.git
-   cd your-repo
+   git clone https://github.com/Joepok77/portfolio.git
+   cd portfolio
    ```
 
 2. Installez les dépendances :
