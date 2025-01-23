@@ -15,13 +15,20 @@ const Hero = () => {
         </div>
 
         <div>
-          <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Johan</span>
-          </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-          I develop web and application <br className='sm:block hidden' />
-            
-          </p>
+        <h1
+  className={`${styles.heroHeadText} text-white`}
+  style={{ fontSize: "4.5rem" }} // Taille personnalisée
+>
+  Bonjour, je m'appelle <span className='text-[#915EFF]'>Johan</span>
+</h1>
+
+<p
+  className={`${styles.heroSubText} mt-2 text-white-100`}
+  style={{ fontSize: "2rem" }} // Taille personnalisée
+>
+  je suis étudiant a l'Efrei en 2éme année  en developpement web et d'application.
+</p>
+
         </div>
       </div>
 
