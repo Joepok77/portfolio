@@ -69,7 +69,7 @@ Suivez ces étapes pour configurer le projet localement sur votre machine.
 3. Configurez les variables d'environnement :
 
    Créez un fichier `.env` à la racine avec le contenu suivant :
-   ```env
+   
 REACT_APP_EMAILJS_USERID=your_emailjs_user_id
 REACT_APP_EMAILJS_TEMPLATEID=your_emailjs_template_id
 REACT_APP_EMAILJS_RECEIVERID=your_emailjs_receiver_id
