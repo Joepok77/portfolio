@@ -44,6 +44,12 @@ const FeedbackCard = ({
 );
 
 const Feedbacks = () => {
+  const showFeedbacks = false; // permet que ca affiche pas les avis car j'en ai pas encore, j'ai juste a metttre à true pour réactiver
+
+  if (!showFeedbacks) {
+    return null; // Ne pas afficher la section si `showFeedbacks` est false
+  }
+
   return (
     <div className={`mt-12 bg-black-100 rounded-[20px]`}>
       <div

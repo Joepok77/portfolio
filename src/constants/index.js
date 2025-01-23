@@ -42,8 +42,9 @@ import {
   Redland,
 
   carrent,
-  jobit,
+  //jobit,
   tripguide,
+  pong,
   threejs,
 } from "../assets";
 
@@ -280,7 +281,7 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "extraplay",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
@@ -301,25 +302,25 @@ const projects = [
     source_code_link: "https://github.com/",
   },
   {
-    name: "Job IT",
+    name: "pingpong-3d",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Un simple jeu de ping-pong à deux joueurs qui permet de s'affronter dans un environnement 3d. Conçu avec ombres et mur rebondissant le premier a 5 a gagné.",
     tags: [
       {
-        name: "react",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "html",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "three.js",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: pong,
+    source_code_link: "https://github.com/Joepok77/pingpong-3d",
   },
   {
     name: "Trip Guide",

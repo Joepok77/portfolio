@@ -47,8 +47,9 @@ import Redland from "./company/Redland.png";
 
 
 import carrent from "./carrent.png";
-import jobit from "./jobit.png";
+//import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import pong from "./pong.png";
 
 export {
   logo,
@@ -95,6 +96,7 @@ export {
   tesla,
   Redland,
   carrent,
-  jobit,
+  //jobit,
   tripguide,
+  pong,
 };

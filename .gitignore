@@ -27,3 +27,27 @@ dist-ssr
 
 # vscode
 .vscode
+
+# Ignorer les fichiers d'environnement
+.env
+
+# Node.js
+node_modules/
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output
+dist/
+build/
+
+# IDE/éditeurs
+.vscode/
+.idea/
+*.swp
+
+# Système d'exploitation
+.DS_Store
+Thumbs.db
