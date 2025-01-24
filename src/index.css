@@ -185,6 +185,12 @@
   opacity: 1; /* S'assure que le niveau reste visible au survol */
 }
 
+.scale-up {
+  transform: scale(1.4); /* Augmente légèrement la taille */
+  z-index: 10; /* Assure que la vidéo reste visible au-dessus */
+}
+
+
 @keyframes mulShdSpin {
   0%,
   100% {

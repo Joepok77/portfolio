@@ -16,7 +16,7 @@ import {
   c,
   github,
   googleCloud,
-  intellij,
+  //intellij,
   intellijIdea,
   java,
   kotlin,
@@ -41,11 +41,13 @@ import {
   //shopify,
   Redland,
 
-  carrent,
+  //carrent,
   //jobit,
-  tripguide,
+  //tripguide,
   pong,
+  extraplay,
   threejs,
+  pubcoder,
 } from "../assets";
 
 
@@ -102,7 +104,7 @@ const technologies = [
   {
     name: "TypeScript",
     icon: typescript,
-    level: "Débutant",
+    level: "en Apprentissage",
   },
   {
     name: "Node JS",
@@ -235,8 +237,8 @@ const experiences = [
     ],
   },
   {
-    title: "stage en recherche...",
-    company_name: "??",
+    title: "stage en cours",
+    company_name: "",
     
     iconBg: "#383E56",
     date: "avril 2025 - ??",
@@ -283,23 +285,23 @@ const projects = [
   {
     name: "extraplay",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Extraplay est un site web qui offre trois mini-jeux fonctionnels, avec des fonctionnalités telles que des offres abonnement, un système de connexion et d'inscription, ainsi qu'une foire aux questions.",
     tags: [
       {
-        name: "react",
+        name: "PHP",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "CSS",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Javascript",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: extraplay,
+    source_code_link: "https://github.com/Joepok77/extraplay.git",
   },
   {
     name: "pingpong-3d",
@@ -323,25 +325,23 @@ const projects = [
     source_code_link: "https://github.com/Joepok77/pingpong-3d",
   },
   {
-    name: "Trip Guide",
+    name: "pubcoder",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "L'objectif est de développer une application interactive ludique et éducative visant à améliorer les compétences en anglais des utilisateurs de 7 à 12 ans à travers des quiz. L'application sera agrémentée d'un élément de jeu où les utilisateurs interagissent avec des monstres virtuels en répondant correctement aux questions. Pour chaque réponse correcte, le monstre recevra des coeurs, et pour chaque réponse incorrecte, l'utilisateur perdra des coeurs et au bout de 5 erreur il devra recommencer.",
     tags: [
       {
-        name: "nextjs",
+        name: "Javascript",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Pubcoder",
         color: "green-text-gradient",
       },
-      {
-        name: "css",
-        color: "pink-text-gradient",
-      },
+      
+      
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+   video: pubcoder,
+   
   },
 ];
 

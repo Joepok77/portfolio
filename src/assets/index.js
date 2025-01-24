@@ -44,12 +44,13 @@ import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
 import Redland from "./company/Redland.png"; 
-
+import pubcoder from "./pubcoder.mp4";
 
 import carrent from "./carrent.png";
 //import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import pong from "./pong.png";
+import extraplay from "./extraplay.png";
 
 export {
   logo,
@@ -99,4 +100,6 @@ export {
   //jobit,
   tripguide,
   pong,
+  extraplay,
+  pubcoder,
 };
