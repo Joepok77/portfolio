@@ -224,7 +224,7 @@ const experiences = [
  
 
   {
-    title: " stage de developpeur application en Javacript",
+    title: " stage de developpeur application en JavaScript",
     company_name: "RedLand Studio",
     icon: Redland,
     iconBg: "#E6DEDD",
@@ -325,7 +325,7 @@ const projects = [
     source_code_link: "https://github.com/Joepok77/pingpong-3d",
   },
   {
-    name: "pubcoder",
+    name: "Vocabulary Quest",
     description:
       "L'objectif est de développer une application interactive ludique et éducative visant à améliorer les compétences en anglais des utilisateurs de 7 à 12 ans à travers des quiz. L'application sera agrémentée d'un élément de jeu où les utilisateurs interagissent avec des monstres virtuels en répondant correctement aux questions. Pour chaque réponse correcte, le monstre recevra des coeurs, et pour chaque réponse incorrecte, l'utilisateur perdra des coeurs et au bout de 5 erreur il devra recommencer.",
     tags: [
