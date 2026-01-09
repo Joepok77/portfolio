@@ -48,6 +48,7 @@ import {
   //tripguide,
   pong,
   extraplay,
+  xamaflix,
   threejs,
   pubcoder,
 } from "../assets";
@@ -295,6 +296,27 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Xamaflix",
+    description:
+      "Application de streaming de films construite avec React et l'API TMDB. Fonctionnalités : recherche de films en temps réel avec debounce, filtrage par genres, page de détails avec casting, système de likes, et design sombre type Netflix.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vite",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Bootstrap",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: xamaflix,
+    source_code_link: "https://github.com/Joepok77/Xamaflix",
+  },
   {
     name: "extraplay",
     description:

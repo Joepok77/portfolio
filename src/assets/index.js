@@ -53,6 +53,7 @@ import carrent from "./carrent.png";
 import tripguide from "./tripguide.png";
 import pong from "./pong.png";
 import extraplay from "./extraplay.png";
+import xamaflix from "./xalaflix.png";
 
 export {
   logo,
@@ -105,5 +106,6 @@ export {
   tripguide,
   pong,
   extraplay,
+  xamaflix,
   pubcoder,
 };
