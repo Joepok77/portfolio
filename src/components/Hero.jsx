@@ -1,9 +1,29 @@
 import { motion } from "framer-motion";
+import { useState, useEffect } from "react";
 
 import { styles } from "../styles";
 import { ComputersCanvas } from "./canvas";
 
 const Hero = () => {
+  // Hook intégré dans Hero.jsx
+  const useMediaQuery = (query) => {
+    const [matches, setMatches] = useState(false);
+
+    useEffect(() => {
+      const media = window.matchMedia(query);
+      if (media.matches !== matches) {
+        setMatches(media.matches);
+      }
+      const listener = () => setMatches(media.matches);
+      media.addEventListener("change", listener);
+      return () => media.removeEventListener("change", listener);
+    }, [matches, query]);
+
+    return matches;
+  };
+
+  const isDesktop = useMediaQuery("(min-width: 768px)");
+
   return (
     <section className="relative w-full h-screen mx-auto">
       <div
@@ -25,12 +45,13 @@ const Hero = () => {
           <p
             className={`${styles.heroSubText} mt-2 text-white-100 text-[16px] xs:text-[18px] sm:text-[20px] md:text-[24px]`}
           >
-            je suis étudiant a l'Efrei en 2éme année en developpement web et d'application.
+            je suis étudiant a l'Efrei en 3ème année en developpement web et d'application.
           </p>
         </div>
       </div>
 
-      <ComputersCanvas />
+      {/* ComputersCanvas rendu seulement en desktop → ne touche pas son layout */}
+      {isDesktop && <ComputersCanvas />}
 
       <div className="absolute xs:bottom-10 bottom-32 w-full flex justify-center items-center">
         <a href="#about">

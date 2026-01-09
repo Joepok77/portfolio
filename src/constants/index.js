@@ -40,6 +40,8 @@ import {
   //tesla,
   //shopify,
   Redland,
+  kiiCoaching,
+  scor,
 
   //carrent,
   //jobit,
@@ -221,7 +223,34 @@ const technologies = [
 
 
 const experiences = [
- 
+  {
+    title: "Alternant Développeur Full-Stack",
+    company_name: "SCOR",
+    icon: scor,
+    iconBg: "#E6DEDD",
+    date: "septembre 2025 - août 2026",
+    points: [
+      "IT Functional – Industrialization & Automation : développement d'applications internes et d'outils d'automatisation.",
+      "Développement front-end (React, TypeScript) et back-end (Node.js) sur des applications internes.",
+      "Mise en place de solutions d'automatisation avec intégration d'agents IA.",
+      "Contribution à la création d'interfaces et d'outils pour améliorer la productivité interne.",
+    ],
+  },
+
+  {
+    title: "Stage de Développeur Web",
+    company_name: "EP Conseil – Kii Coaching",
+    icon: kiiCoaching,
+    iconBg: "#383E56",
+    date: "avril 2025 - juillet 2025",
+    points: [
+      "Refonte complète du site WordPress orienté coaching et bien-être professionnel.",
+      "Intégration de pages clés (contact, prise de rendez-vous) et création de formulaires interactifs en HTML/CSS.",
+      "Optimisation SEO, mise en place d'un design responsive et amélioration des performances (vitesse, sécurité).",
+      "Intégration d'avis Google, newsletter, carte Google Maps et système de réservation en ligne.",
+      "Développement d'une forte autonomie et montée en compétences sur WordPress en collaboration avec la dirigeante.",
+    ],
+  },
 
   {
     title: " stage de developpeur application en JavaScript",
@@ -236,22 +265,6 @@ const experiences = [
       "Test et optimisation des performances de l'application pour garantir une utilisation sans problème sur différents appareils.",
     ],
   },
-  {
-    title: "stage en cours",
-    company_name: "",
-    
-    iconBg: "#383E56",
-    date: "avril 2025 - ??",
-    points: [
-      "...",
-      "...",
-      "...",
-      "...",
-    ],
-  },
-
-
-  
 ];
 
 const testimonials = [

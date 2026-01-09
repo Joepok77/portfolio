@@ -1,4 +1,4 @@
-import React, { useRef } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -15,19 +15,31 @@ const ProjectCard = ({
   source_code_link,
 }) => {
   const videoRef = useRef(null);
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setIsMobile(window.innerWidth < 768);
+    };
+
+    handleResize(); // Set initial value
+    window.addEventListener("resize", handleResize);
+
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
 
   const handleMouseEnter = () => {
-    if (video) {
-      videoRef.current?.play(); // Lecture de la vidéo
-      videoRef.current?.classList.add("scale-up"); // Ajouter l'effet de zoom
+    if (!isMobile && video) {
+      videoRef.current?.play();
+      videoRef.current?.classList.add("scale-up");
     }
   };
 
   const handleMouseLeave = () => {
-    if (video) {
-      videoRef.current?.pause(); // Pause de la vidéo
-      videoRef.current.currentTime = 0; // Réinitialisation
-      videoRef.current?.classList.remove("scale-up"); // Supprimer l'effet de zoom
+    if (!isMobile && video) {
+      videoRef.current?.pause();
+      videoRef.current.currentTime = 0;
+      videoRef.current?.classList.remove("scale-up");
     }
   };
 
@@ -47,13 +59,15 @@ const ProjectCard = ({
           onMouseLeave={handleMouseLeave}
         >
           {video ? (
-            <video
-              ref={videoRef}
-              src={video}
-              className="w-full h-full object-cover rounded-2xl transition-transform duration-300 ease-out" // Transition pour le zoom
-              muted
-              loop
-            />
+           <video
+           ref={videoRef}
+           src={video}
+           className="w-full h-full object-cover rounded-2xl transition-transform duration-300 ease-out"
+           muted
+           loop
+           playsInline
+           autoPlay
+         />
           ) : (
             <img
               src={image}

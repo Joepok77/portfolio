@@ -43,7 +43,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-import Redland from "./company/Redland.png"; 
+import Redland from "./company/Redland.png";
+import kiiCoaching from "./company/Logo_Kii_Coaching.png";
+import scor from "./company/Scor.jpg";
 import pubcoder from "./pubcoder.mp4";
 
 import carrent from "./carrent.png";
@@ -96,6 +98,8 @@ export {
   starbucks,
   tesla,
   Redland,
+  kiiCoaching,
+  scor,
   carrent,
   //jobit,
   tripguide,
