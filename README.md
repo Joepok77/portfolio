@@ -91,6 +91,3 @@ Suivez ces étapes pour configurer le projet localement sur votre machine.
 
 ---
 
-## ✨ Plus
-
-Si vous appréciez ce projet, n'hésitez pas à étoiler le dépôt sur GitHub ou à partager vos retours. Merci de votre visite et bonne découverte !
